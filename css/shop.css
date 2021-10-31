@@ -1,0 +1,92 @@
+.jumbotron {
+  background-image: url(../images/homedecor-banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: contrast(150%);
+}
+
+.jumbotron h1 {
+  text-transform: capitalize;
+  margin-top: 2rem !important;
+  font-size: 2.8rem;
+  margin: -2rem 0 1.5rem 0;
+  font-weight: 700;
+}
+
+.lead {
+  margin-top: -0.8rem;
+  font-size: 1.2rem;
+}
+
+.jumbotron h1,
+.lead {
+  text-align: center;
+}
+
+.img-thumbnail {
+  border-radius: 0;
+  border: 2px solid var(--primary-color) !important;
+  width: 40%;
+}
+
+@media only screen and (max-width: 766px) {
+  .img-thumbnail {
+    width: 100%;
+  }
+}
+
+.card-shop {
+  width: 26rem !important;
+  margin-bottom: 8rem !important;
+  border: none;
+  background: var(--tinted-color);
+}
+
+.card-title {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.card-text {
+  text-align: left;
+}
+
+.price {
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 0.15rem;
+}
+
+.icon-container {
+  width: 23rem;
+  margin: 2rem auto 1rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-link img {
+  margin: 0 1rem;
+  width: 3rem;
+  opacity: 0.7;
+  transition: 200ms;
+}
+
+.card-link img:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 760px) {
+  .card-shop {
+    width: 100% !important;
+  }
+
+  .card-text {
+    text-align: center;
+  }
+
+  .icon-container {
+    width: auto;
+  }
+}

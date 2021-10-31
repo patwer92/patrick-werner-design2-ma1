@@ -1,0 +1,143 @@
+/* Root styling - Primary colours */
+:root {
+  --primary-color: #53cce6;
+  --secondary-color: #ffa85c;
+  --dim-color: #288599;
+  --tinted-color: #b5f2ff;
+  --background-color: #f8f9fa;
+  --white-color: #fafafa;
+  --black-color: #0a0a0a;
+  --grey-color: #e9ecef;
+}
+
+/* Global styling */
+
+.container {
+  background: var(--background-color);
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+/* Shadow styling */
+
+.card-home,
+.card-shop {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* Carousel and Jumbotron container styling */
+.carousel-inner,
+.jumbotron {
+  height: 35rem;
+  border-radius: 0;
+  border: 2px solid var(--primary-color);
+}
+
+/* Breadcrumb styling */
+.breadcrumb {
+  padding: 0.75rem 1.2rem;
+  height: 4rem;
+  border-radius: 0;
+  background-image: url(./../images/texture-bg.jpg);
+  color: var(--primary-color);
+}
+
+.breadcrumb-item {
+  padding: 0.6rem 0.3rem;
+  font-size: 1rem;
+  /* background: var(--background-color); */
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--primary-color);
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.breadcrumb-item a {
+  color: var(--black-color) !important;
+  opacity: 0.6;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+/* Buttons styling */
+.btn,
+.browse-btn {
+  color: var(--black-color) !important;
+  opacity: 0.7;
+  transition: 200ms;
+  font-weight: 700;
+}
+
+.btn:hover,
+.browse-btn:hover {
+  opacity: 1;
+}
+
+.bold-font {
+  font-weight: 700;
+}
+
+/* Header styling */
+.navbar {
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  height: 4.5rem;
+}
+
+.nav-item {
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+}
+.active {
+  color: var(--primary-color) !important;
+  font-weight: 700;
+}
+
+input {
+  width: 10rem !important;
+  background: var(--white-color) !important;
+}
+
+.btn {
+  border: 1px solid var(--primary-color) !important;
+  background: var(--primary-color) !important;
+}
+
+/* Footer styling */
+footer {
+  height: 5rem;
+  background: var(--dim-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .container {
+  height: 100%;
+  background: #bee4e6;
+  background: var(--dim-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .container a img {
+  margin-top: -3rem;
+  height: 3.5rem;
+  background-size: cover;
+}
+
+.copyright {
+  color: #fff;
+  margin-bottom: -2rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
