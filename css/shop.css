@@ -3,7 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  filter: contrast(150%);
+  filter: contrast(120%);
 }
 
 .jumbotron h1 {
@@ -27,12 +27,12 @@
 .img-thumbnail {
   border-radius: 0;
   border: 2px solid var(--primary-color) !important;
-  width: 40%;
+  width: 30%;
 }
 
 @media only screen and (max-width: 766px) {
   .img-thumbnail {
-    width: 100%;
+    width: 70%;
   }
 }
 
@@ -59,8 +59,8 @@
 }
 
 .icon-container {
-  width: 23rem;
-  margin: 2rem auto 1rem auto;
+  width: 20rem;
+  margin: 1rem auto 1rem auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -87,6 +87,6 @@
   }
 
   .icon-container {
-    width: auto;
+    width: 12rem;
   }
 }
