@@ -12,32 +12,34 @@
   font-size: 2.8rem;
   margin: -2rem 0 1.5rem 0;
   font-weight: 700;
+  opacity: 0.9;
+  font-family: "Courgette", cursive;
 }
 
 .lead {
-  margin-top: -0.8rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .jumbotron h1,
 .lead {
+  letter-spacing: 0.09rem;
   text-align: center;
 }
 
 .img-thumbnail {
   border-radius: 0;
   border: 2px solid var(--primary-color) !important;
-  width: 30%;
+  width: 40%;
 }
 
 @media only screen and (max-width: 766px) {
   .img-thumbnail {
-    width: 70%;
+    width: 100%;
   }
 }
 
 .card-shop {
-  width: 26rem !important;
+  width: 26.4rem !important;
   margin-bottom: 8rem !important;
   border: none;
   background: var(--tinted-color);
@@ -49,13 +51,15 @@
 }
 
 .card-text {
-  text-align: left;
+  text-align: center;
+  line-height: 2rem;
 }
 
 .price {
   text-align: center;
   font-size: 2rem;
   letter-spacing: 0.15rem;
+  color: var(--dim-color);
 }
 
 .icon-container {
@@ -80,10 +84,6 @@
 @media only screen and (max-width: 760px) {
   .card-shop {
     width: 100% !important;
-  }
-
-  .card-text {
-    text-align: center;
   }
 
   .icon-container {

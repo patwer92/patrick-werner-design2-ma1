@@ -3,7 +3,7 @@
   --primary-color: #53cce6;
   --secondary-color: #ffa85c;
   --dim-color: #288599;
-  --tinted-color: #b5f2ff;
+  --tinted-color: #e7fbff;
   --background-color: #f8f9fa;
   --white-color: #fafafa;
   --black-color: #0a0a0a;
@@ -18,6 +18,12 @@
 
 .wrapper {
   flex: 1 0 auto;
+}
+
+hr {
+  margin-top: 3.5rem;
+  border: 1px solid var(--black-color);
+  opacity: 0.6;
 }
 
 /* Shadow styling */
@@ -67,7 +73,7 @@
 .btn,
 .browse-btn {
   color: var(--black-color) !important;
-  opacity: 0.7;
+  opacity: 0.85;
   transition: 200ms;
   font-weight: 700;
 }
@@ -112,7 +118,7 @@ input {
 
 /* Footer styling */
 footer {
-  height: 5rem;
+  height: 8rem;
   background: var(--dim-color);
   display: flex;
   justify-content: center;
@@ -130,9 +136,28 @@ footer .container {
 }
 
 footer .container a img {
-  margin-top: -3rem;
-  height: 3.5rem;
+  margin-top: -5.8rem;
+  height: 5rem;
   background-size: cover;
+}
+
+.social-icons-container {
+  margin-bottom: 1rem;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  color: var(--tinted-color);
+}
+
+.social-icon {
+  transition: 200ms;
+}
+
+.social-icon:hover {
+  color: var(--primary-color);
+  cursor: pointer;
 }
 
 .copyright {
