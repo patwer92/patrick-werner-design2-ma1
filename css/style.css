@@ -62,8 +62,6 @@ main {
 .browse-btn {
   margin: 1rem 0rem 1rem 1.3rem;
   width: 88%;
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 0.1rem;
   border: 1px solid var(--secondary-color) !important;
   background: var(--secondary-color) !important;
 }

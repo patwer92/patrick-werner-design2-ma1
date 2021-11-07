@@ -72,10 +72,12 @@ hr {
 /* Buttons styling */
 .btn,
 .browse-btn {
+  font-family: "Poppins", sans-serif;
   color: var(--black-color) !important;
-  opacity: 0.85;
+  opacity: 0.7;
   transition: 200ms;
   font-weight: 700;
+  font-size: 1rem;
 }
 
 .btn:hover,
@@ -83,9 +85,9 @@ hr {
   opacity: 1;
 }
 
-.bold-font {
+/* .bold-font {
   font-weight: 700;
-}
+} */
 
 /* Header styling */
 .navbar {
